@@ -20,7 +20,7 @@ import (
 	"flag"
 	"os"
 	"strconv"
-	MQTT "github.com/yunba/mqtt.go"
+	MQTT "github.com/yunba/yunba-go-sdk"
 	"time"
 )
 

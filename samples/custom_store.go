@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	MQTT "github.com/yunba/mqtt.go"
+	MQTT "github.com/yunba/yunba-go-sdk"
 )
 
 // This NoOpStore type implements the go-mqtt/Store interface, which

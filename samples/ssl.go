@@ -45,7 +45,7 @@ import "fmt"
 import "time"
 import "crypto/tls"
 import "crypto/x509"
-import MQTT "github.com/yunba/mqtt.go"
+import MQTT "github.com/yunba/yunba-go-sdk"
 
 func NewTlsConfig() *tls.Config {
 	// Import trusted certificates from CAfile.pem.

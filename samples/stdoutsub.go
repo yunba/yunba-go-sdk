@@ -22,7 +22,7 @@ import (
 	"time"
 	"log"
 
-	MQTT "github.com/yunba/mqtt.go"
+	MQTT "github.com/yunba/yunba-go-sdk"
 	"flag"
 	"strconv"
 )

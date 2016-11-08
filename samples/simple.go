@@ -19,7 +19,7 @@ import (
 	"os"
 	"time"
 
-	MQTT "github.com/yunba/mqtt.go"
+	MQTT "github.com/yunba/yunba-go-sdk"
 )
 
 var f MQTT.MessageHandler = func(client *MQTT.MqttClient, msg MQTT.Message) {

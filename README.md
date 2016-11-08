@@ -1,4 +1,4 @@
-# mqtt.go
+# yunba-go-sdk
 
 Yunba Go SDK.
 
@@ -7,7 +7,7 @@ Yunba Go SDK.
 This client is designed to work with the standard Go tools, so installation is as easy as:
 
 ```
-go get github.com/yunba/mqtt.go
+go get github.com/yunba/yunba-go-sdk
 ```
 
 If error happened like this:
@@ -29,7 +29,7 @@ go test
 Make use of the library by importing it in your Go client source code. For example,
 
 ```
-MQTT "github.com/yunba/mqtt.go"
+MQTT "github.com/yunba/yunba-go-sdk"
 ```
 
 Samples are available in the `samples` directory for reference.
